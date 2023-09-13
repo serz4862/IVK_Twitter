@@ -8,7 +8,7 @@ export default function LoginPage({providers}) {
     return '';
   }
   if (data) {
-    router.push('/');
+    router.push('/'); //we may use the (url: '/')
   }
   // 
   return (
