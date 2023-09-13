@@ -4,3 +4,4 @@
 <p> To initiate the project : <br> npx create-next-app (name of the project)</p>
 <p>For the tailwindcss: <br> yarn add -D tailwindcss postcss autoprefixer or npm install -D tailwindcss</p><br>
 <p>I have initialize the tailwindcss : <br> npm tailwindcss init</p>
+<p>To initialize the serer:<br> <b>CMD:</b> yarn run dev.</p>
