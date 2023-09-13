@@ -9,3 +9,4 @@
 
 <p>From the documentation of next-auth , I have set up the google authentication from google provider and after setting up in the cloud and 
 credential. I got the CLIENT ID as well as SECRET ID.</p>
+<p>I have used mongodDB from the documentation of next-auth under the adaptor<br> <b>CMD:</b>yarn add @auth/mongodb-adapter mongodb or npm install @auth/mongodb-adapter mongodb</p>
