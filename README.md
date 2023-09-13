@@ -6,3 +6,6 @@
 <p>I have initialize the tailwindcss : <br> <b>CMD:</b>npm tailwindcss init</p>
 <p>To initialize the serer:<br> <b>CMD:</b> yarn run dev.</p>
 <p>For authentication: <br><b>CMD:</b> yarn add next-auth or npm install next-auth.</p>
+
+<p>From the documentation of next-auth , I have set up the google authentication from google provider and after setting up in the cloud and 
+credential. I got the CLIENT ID as well as SECRET ID.</p>
