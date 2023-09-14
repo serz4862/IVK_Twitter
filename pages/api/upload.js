@@ -26,7 +26,7 @@ export default async function handle(req, res) {
     const fileInfo = files[type][0];
     const filename = fileInfo.path.split('/').slice(-1)[0];
     s3Client.upload({
-      Bucket: 'IVK-twitter-clone',
+      Bucket: 'ivk-twitter',
       Body: fs.readFileSync(fileInfo.path),
       ACL: 'public-read',
       Key: filename,
