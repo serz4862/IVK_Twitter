@@ -21,7 +21,7 @@ export default async function handle(req, res) {
       : await User.findOne({username});
     const follow = await Follower.findOne({
       source:session.user.id,
-      destination:user._id
+      destination:user.id
     });
     res.json({user,follow});
   }
