@@ -1,11 +1,11 @@
 import NextAuth from "next-auth"
-import GoogleProvider from "next-auth/providers/google" // I have used the google authentication or I could have used the github provider too.
+import GoogleProvider from "next-auth/providers/google" 
 import {MongoDBAdapter} from "@next-auth/mongodb-adapter";
 import clientPromise from "../../../lib/mongodb"
 
 export const authOptions = {
   adapter: MongoDBAdapter(clientPromise),
-  providers: [ // google authentication from the next-auth.
+  providers: [ 
     GoogleProvider({
       clientId: process.env.GOOGLE_CLIENT_ID,
       clientSecret: process.env.GOOGLE_CLIENT_SECRET
